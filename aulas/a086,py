@@ -1,0 +1,7 @@
+'''Import, from, as e *'''
+
+import sys #Importa tudo, mas usa o namespace
+from sys import exit, platform #Import só algumas funções
+import sys as s #usa apelido no lugar do namespace
+from sys import platform as pf #coloca um apelido e especifica a função
+from sys import * #importa tudo
